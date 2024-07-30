@@ -1,24 +1,17 @@
-# desafio-firebase-vuex
+# Desafío Firebase con Vue.js y Vuex
 
-## Project setup
-```
-npm install
-```
+Este proyecto es una aplicación web que utiliza Vue.js, Firebase y Vuex para implementar un sistema CRUD básico. El sistema permite agregar, listar y eliminar usuarios. El objetivo principal es demostrar la integración de Firebase para la persistencia de datos y el uso de Vuex para la gestión del estado global.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Características
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- **Agregar Usuarios**: Permite a los usuarios agregar nuevos colaboradores con nombre y correo electrónico.
+- **Lista de Usuarios**: Muestra una lista de usuarios con la opción de eliminar cada uno.
+- **Validación de Datos**: Verifica que el correo electrónico ingresado sea válido.
+- **Mensajes de Éxito y Error**: Proporciona retroalimentación al usuario sobre las acciones realizadas.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Tecnologías Utilizadas
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **Vue.js**: Framework de JavaScript para construir interfaces de usuario.
+- **Vuex**: Librería para la gestión del estado global en Vue.js.
+- **Firebase**: Plataforma para la autenticación y la base de datos en tiempo real.
+- **Vue Router**: Enrutador para gestionar las vistas en la aplicación.

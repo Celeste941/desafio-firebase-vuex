@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <UsuariosLista />
   </div>
 </template>
+
+<script>
+import UsuariosLista from '../components/UsuariosLista.vue';
+
+export default {
+  components: {
+    UsuariosLista,
+
+  }
+};
+</script>
