@@ -1,3 +1,7 @@
+![Interfaz de la aplicación](./public/userAdd.png)
+![Interfaz de la aplicación](./public/listUser.png)
+
+
 # Desafío Firebase con Vue.js y Vuex
 
 Este proyecto es una aplicación web que utiliza Vue.js, Firebase y Vuex para implementar un sistema CRUD básico. El sistema permite agregar, listar y eliminar usuarios. El objetivo principal es demostrar la integración de Firebase para la persistencia de datos y el uso de Vuex para la gestión del estado global.
